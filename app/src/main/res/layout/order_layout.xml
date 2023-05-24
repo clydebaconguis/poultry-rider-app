@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/customer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Name"
+            android:layout_gravity="center_vertical"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="12dp"
+            android:textSize="18sp"
+            android:textColor="@color/black_gray"
+            android:drawablePadding="3dp"
+            app:drawableStartCompat="@drawable/baseline_directions_car_24" />
+
+        <TextView
+            android:textAlignment="textEnd"
+            android:text="date"
+            android:id="@+id/date"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="12dp"
+            android:textColor="@color/gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <View
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:background="@color/gray"
+        android:layout_height="0.5dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
